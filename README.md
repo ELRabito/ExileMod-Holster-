@@ -9,4 +9,4 @@ Make a Customcode override for the following three Exile functions in your missi
 * 2. ExileClient_gui_hud_event_onKeyUp
 * 3. ExileClient_object_player_stats_reset
 
-* __For merging, the code parts are commented with /* Holster+ Start*/ & /* Holster+ End*/__
+* __For merging the code parts are commented with /* Holster+ Start*/ & /* Holster+ End*/__
