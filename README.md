@@ -5,8 +5,8 @@
 # Installation
 
 Make a Customcode override for the following three Exile functions in your missionfile or merge the code if they already exist!
-* ExileClient_gui_hud_event_onKeyDown
-* ExileClient_gui_hud_event_onKeyUp
-* ExileClient_object_player_stats_reset
+* 1. ExileClient_gui_hud_event_onKeyDown
+* 2. ExileClient_gui_hud_event_onKeyUp
+* 3. ExileClient_object_player_stats_reset
 
 * __For merging, the code parts are commented with /* Holster+ Start*/ & /* Holster+ End*/__
