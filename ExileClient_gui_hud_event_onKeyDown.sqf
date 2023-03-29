@@ -33,16 +33,19 @@ if (!(_controlState) && (_keyCode in (actionKeys "Throw"))) exitWith
 /* Holster+ Start*/
 if ((_keyCode in (actionKeys "binocular"))) then 
 {
-	if!(((currentWeapon player) call BIS_fnc_itemType) #1 isEqualTo "Binocular") then 
-	{
-		call ExileClient_util_HolsterWeaponClean;
-		_stopPropagation = false;
-	}
-	else
-	{
-		player action ["SWITCHWEAPON",player,player,-1];
-		_stopPropagation = true;
-	}; 
+    if!(((currentWeapon player) call BIS_fnc_itemType) #1 isEqualTo "Binocular") then 
+    {
+        ExileClientPlayerHolsteredWeapon = weaponState player;
+        if(currentWeapon player == primaryWeapon player) then {ExileClientMWState = weaponState player};
+        if(currentWeapon player == handgunWeapon player) then {ExileClientHGState = weaponState player};
+        if(currentWeapon player == secondaryWeapon player) then {ExileClientSWState = weaponState player};
+        _stopPropagation = false;
+    }
+    else
+    {
+        player action ["SWITCHWEAPON",player,player,-1];
+        _stopPropagation = true;
+    }; 
 };
 /* Holster+ End*/
 switch (_keyCode) do  
