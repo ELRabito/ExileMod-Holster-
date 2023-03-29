@@ -1,4 +1,4 @@
-# ExileMod-Holster-
+# ExileMod-Holster+
 - Keeps the firemode on weapon switch/holstering instead of resetting every time. 
 - Also works for under-barrel modes or sidearms with full auto mode.
 
