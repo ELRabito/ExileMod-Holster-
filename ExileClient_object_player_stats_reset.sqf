@@ -51,10 +51,12 @@ ExileClientPlayerIsBleeding = false;
 ExileClientPlayerIsExhausted = false;
 ExileClientPlayerIsHungry = false;			
 ExileClientPlayerIsThirsty = false;
+/* Holster+ Start*/
 ExileClientPlayerHolsteredWeapon = [];
 ExileClientMWState = [];
 ExileClientHGState = [];
 ExileClientSWState = [];
+/* Holster+ End*/
 ExileClientPlayerIsBambi = false;
 ExileClientPlayerBambiStateExpiresAt = 0;
 ExileClientEarplugsInserted = false;
