@@ -30,7 +30,8 @@ if (!(_controlState) && (_keyCode in (actionKeys "Throw"))) exitWith
 	_stopPropagation
 };
 
-/* Holster+ Start*/
+/* Holster+ Start */
+/* by El'Rabito */
 if ((_keyCode in (actionKeys "binocular"))) then 
 {
     if!(((currentWeapon player) call BIS_fnc_itemType) #1 isEqualTo "Binocular") then 
