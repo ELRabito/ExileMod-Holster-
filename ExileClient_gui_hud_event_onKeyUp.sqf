@@ -110,6 +110,7 @@ switch (_keyCode) do
 			else 
 			{
 				/* Holster+ Start*/
+				/* by El'Rabito */
 				if (primaryWeapon player != "") then
 				{
 					if (primaryWeapon player != currentWeapon player) then
@@ -149,6 +150,7 @@ switch (_keyCode) do
 				if (handgunWeapon player != "") then
 				{
 					/* Holster+ Start*/
+					/* by El'Rabito */
 					if (handgunWeapon player != currentWeapon player) then
 					{
 						if(currentWeapon player == primaryWeapon player) then {ExileClientMWState = weaponState player};
@@ -192,6 +194,7 @@ switch (_keyCode) do
 				if (secondaryWeapon player != "") then
 				{
 					/* Holster+ Start*/
+					/* by El'Rabito */
 					if (secondaryWeapon player != currentWeapon player) then
 					{
 						if(currentWeapon player == primaryWeapon player) then {ExileClientMWState = weaponState player};
@@ -226,6 +229,7 @@ switch (_keyCode) do
 			else
 			{
 				/* Holster+ Start*/
+				/* by El'Rabito */
 				if (currentWeapon player != "") then
 				{
 					ExileClientPlayerHolsteredWeapon = weaponState player;
