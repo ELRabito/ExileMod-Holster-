@@ -52,6 +52,7 @@ ExileClientPlayerIsExhausted = false;
 ExileClientPlayerIsHungry = false;			
 ExileClientPlayerIsThirsty = false;
 /* Holster+ Start*/
+/* by El'Rabito */
 ExileClientPlayerHolsteredWeapon = [];
 ExileClientMWState = [];
 ExileClientHGState = [];
